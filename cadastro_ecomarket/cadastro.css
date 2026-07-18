@@ -1,0 +1,49 @@
+/*fundo e texto*/
+html, body{
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/14/08/08/tree-8062539_1280.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 15;
+
+}
+/*titulo principal*/
+h1{
+    display: inline-block;
+    margin: 0 auto;
+    text-shadow: 0px 0px 8px rgb(254, 254, 254);
+    color: white;
+    font-size: 52px;
+    border: 12px solid green;
+    border-radius: 99px;
+    background-color: rgb(3, 163, 0);
+    padding: 10px 20px;
+    box-shadow: 0px 0px 12px green;
+    line-height: 1.2;
+    padding: 12px;
+}
+/*as pergunta*/
+input{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: rgb(0, 0, 0);
+    border: 12px solid green;
+    border-radius: 99px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 12px green;
+    font-size: 30px;
+}
+/*botao*/
+button{
+    color: green;
+    border: 12px solid green;
+    border-radius: 99px;
+    box-shadow: 0px 0px 12px;
+    font-size: 26px;
+    padding: 12px;
+    cursor: pointer;
+}
